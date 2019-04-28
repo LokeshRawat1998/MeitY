@@ -1,0 +1,42 @@
+body {
+  background-image: url('img/pexels-photo-306344.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Header .row {
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+  padding: 0%;
+}
+.container a:hover {
+  color: rgb(243, 34, 34);
+}
+.dropdown-content {
+  background-color: rgba(255, 255, 255, 0.904);
+}
+.dropdown-content li a {
+  color: black;
+}
+.first {
+  margin-top: 3%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;
+}
+.heading {
+  background-color: rgba(239, 241, 248, 0.61);
+  color: black;
+  text-align: center;
+  padding: 1%;
+  margin-top: 3%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 1%;
+}
+.row {
+  background-color: rgba(252, 252, 252, 0.76);
+  margin-top: 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1%;
+}

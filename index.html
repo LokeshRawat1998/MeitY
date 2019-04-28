@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Prototype</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+
+    <!--Import index.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="index.css"
+      media="screen,projection"
+    />
+    <!--Import jQuery and materialize.js-->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--------------------------------------------------------------------------------------------------->
+  </head>
+  <body>
+    <div class="Header">
+      <div class="row">
+        <div class="col s1">
+          <img src="img/logo.jpg" style="height: 100px;" />
+        </div>
+        <div class="col s11">
+          <h5>Special Manpower Development Programme</h5>
+          <h5>for Chips to System Design (SMDP-C2SD)</h5>
+        </div>
+      </div>
+    </div>
+    <div class="navbar">
+      <nav class="black">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="" class="brand-nameleft">#SMDP-C2SD</a>
+            <a href="#" data-activates="mobile-nav" class="button-collapse">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-small-and-down">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li>
+                <a class="dropdown-button" href="#" data-activates="Programs">Programs <i class="fas fa-caret-down" style="font-size: 10px;"></i></a>
+                <ul id='Programs' class='dropdown-content'>
+                    <li><a href="SMDP-1.html">SMDP-I</a></li>
+                    <li><a href="SMDP-2.html">SMDP-II</a></li>
+                    <li><a href="SMDP-C2D.html">SMDP-C2SD</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-button" href="#" data-activates="C2SD">C2SD <i class="fas fa-caret-down" style="font-size: 10px;"></i></a>
+                <ul id='C2SD' class='dropdown-content'>
+                    <li><a href="#">Institutes</a></li>
+                    <li><a href="#">Investigators</a></li>
+                    <li><a href="#">PRSG Members</a></li>
+                    <li><a href="#">TAC Members</a></li>
+                    <li><a href="#">NSC Members</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="dropdown-button" href="#" data-activates="Resources">Resources <i class="fas fa-caret-down" style="font-size: 10px;"></i></a>
+                <ul id='Resources' class='dropdown-content'>
+                    <li><a href="#">Instruction</a></li>
+                    <li><a href="#">Enhancement Programmes</a></li>
+                    <li><a href="#">International Guest Faculty Lectures</a></li>
+                    <li><a href="#">Short Term Courses</a></li>
+                    <li><a href="#">Model Syllabus</a></li>
+                    <li><a href="#">Other Mterials</a></li>
+                </ul>
+              </li>
+              <li>
+                  <a href="ContactUs.html"> Contact Us</a>
+                </li>
+              
+              <li>
+                <a href="#">Login <i class="fas fa-sign-in-alt" style="font-size: 10px;"></i
+                  ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!----------------------DropDown for navbar--------------------------------------->
+    
+    <script>
+    $(document).ready(function () {
+      $(".dropdown-button").dropdown({
+        constrainWidth: false,
+        hover: true,
+        belowOrigin: true,
+        alignment: 'left'
+      });
+    });
+</script>
+
+
+    <!--------------------------------------Section1----------------------------->
+    <!-------------Slider------------------------>
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/pexels-photo-825263.jpeg" style="opacity: 0.5;" />
+          <!-- RIGHT ALIGN CAPTION -->
+          <div class="caption right-align">
+            <h3
+              class="black-text"
+              style="background-color: rgba(255, 255, 255, 0.616);"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+              deserunt.
+            </h3>
+          </div>
+        </li>
+        <li>
+          <img src="img/pexels-photo-1448561.jpeg" style="opacity: 0.6;" />
+          <!-- LEFT ALIGN CAPTION -->
+          <div class="caption left-align">
+            <h3
+              class="black-text"
+              style="background-color: rgba(255, 255, 255, 0.616);"
+            >
+              Lorem ipsum dolor sit amet.
+            </h3>
+          </div>
+        </li>
+        <li>
+          <img src="img/pexels-photo-1105379.jpeg" style="opacity: 0.6;" />
+          <!-- CENTER ALIGN CAPTION -->
+          <div class="caption center-align">
+            <h3 class="black-text" style="background-color: rgba(255, 255, 255, 0.616);"">
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </h3>
+          </div>
+        </li>
+        <li>
+          <img src="img/pexels-photo-1432669.jpeg" style="opacity: 0.6;" />
+          <!-- RIGHT ALIGN CAPTION -->
+          <div class="caption right-align">
+            <h3 class="black-text"style="background-color: rgba(255, 255, 255, 0.616);">
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </h3>
+          </div>
+        </li>
+        <li>
+          <img src="img/pexels-photo-1432680.jpeg" style="opacity: 0.6;" />
+          <!-- LEFT ALIGN CAPTION -->
+          <div class="caption left-align">
+            <h3 class="black-text"style="background-color: rgba(255, 255, 255, 0.616);">
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-----------------Slider js------------------------------->
+    <script>
+      $('.slider').slider({
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 3000
+      });
+    </script>
+    <!-----------------------------Section2---------------------------------------->
+
+    <div class="row">
+      <div class="col s8">
+        <div class="content " style="color: white; font-size: 20px;">
+          <h4>The Umbrella Program</h4>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sed
+          laboriosam placeat reiciendis explicabo, fugit repudiandae veritatis
+          eius architecto? Temporibus corrupti commodi, beatae facere dolorem
+          est consequuntur ducimus sint repellat blanditiis voluptatibus omnis
+          repellendus eaque. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Enim, nihil! Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Animi inventore voluptas maxime officiis aliquam, enim illum
+          praesentium itaque hic sunt.<br />
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt fugit
+          totam, officia recusandae unde hic eum voluptatem nulla sequi iste.
+        </div>
+      </div>
+      <div class="col s4">
+        <div class="scroll">
+          <marquee
+            direction="up"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+            height="300";
+            style="font-size: 20px;color: black;"
+          >
+            <h5><i>What's New***</i></h5>
+            <br />
+            <h6><u>Heading1</u></h6>
+            <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, atque.</a>
+            <hr />
+            <h6><u>Heading2</u></h6>
+            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a>
+            <hr />
+            <h6><u>Heading3</u></h6>
+            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque,
+            praesentium?</a>
+            <hr>
+            <h6><u>Heading4</u></h6>
+            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque,
+            praesentium?</a>
+            <hr>
+            <h6><u>Heading5</u></h6>
+            <a href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a></marquee>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------------------------------------------->
+    <section>
+      <table style="width:90%;background-color: rgba(190, 166, 166, 0.473);margin-left: 5%;margin-right: 5%;" >
+        <tr>
+          <td><i class="fas fa-users"></i><br>
+            <span class="counter">26533</span><br>
+            <span class="data-description">Manpower</span></td>
+          <td><i class="fas fa-graduation-cap"></i><br>
+            <span class="counter">458</span><br>
+            <span class="data-description">PH.Ds</span></td>
+          <td><i class="fas fa-book" aria-hidden="true"></i><br>
+            <span class="counter">264</span><br>
+            <span class="data-description">Publications</span></td>
+        </tr>
+        <tr>
+          <td><i class="fas fa-calendar"></i><br>
+            <span class="counter">18</span><br>
+            <span class="data-description">Events</span></td>
+          <td><i class="fas fa-microchip"></i><br>
+            <span class="counter">15</span><br>
+            <span class="data-description">SoCs</span></td>
+          <td><i class="fas fa-microchip"></i><br>
+            <span class="counter">70</span><br>
+            <span class="data-description">ASICS</span></td>
+        </tr>
+      </table>
+      <script>
+        jQuery(document).ready(function($)
+         {
+            $(".counter").counterUp({
+              
+              });
+          });
+      </script>
+    </section> 
+   <footer class="info">
+
+     
+       <div class="row">
+       <div class="col s3">
+         <p><b>Site visits:</b></p>
+       </div>
+       <div class="col s6">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ducimus sunt quam eius iusto aut quibusdam officiis assumenda provident similique?</p>
+       </div>
+       <div class="col s3">
+         <p><b>Last update:</b></p>
+        </div>
+       
+    </div>
+
+   </footer>
+
+   
+  </body>
+  
+</html>

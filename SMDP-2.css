@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(255, 255, 255, 0.288);
+}
+.Header .row {
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+  padding: 0%;
+}
+.container a:hover {
+  color: rgb(243, 34, 34);
+}
+.dropdown-content {
+  background-color: rgba(255, 255, 255, 0.904);
+}
+.dropdown-content li a {
+  color: black;
+}
+.first {
+  background-color: white;
+  padding: 1%;
+}
+.headline {
+  background-color: aqua;
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+footer .row {
+  font-size: 15px;
+}
